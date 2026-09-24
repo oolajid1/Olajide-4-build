@@ -20,7 +20,7 @@ nav {
 }
 
 nav a{
-    margin:0 10 px;
+    margin:0 10px;
     text-decoration: none;
 }
 
@@ -28,12 +28,7 @@ main{
     padding: 20px;
 }
 
-img{
-    width:300px;
-    height:auto;
-    display: block;
-    margin: 0 auto;
-}
+
 
 section{
     padding: 20px;
@@ -58,4 +53,10 @@ a:visited {
 
 a:hover{
     text-decoration: none;
+}
+
+@media (min-width: 768px){
+    main{
+        padding:40px;
+    }
 }
